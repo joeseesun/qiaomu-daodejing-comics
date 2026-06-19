@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="12" fill="#fbf6eb"/>
+  <rect x="7" y="7" width="50" height="50" rx="9" fill="none" stroke="#a84435" stroke-width="3"/>
+  <text x="32" y="42" text-anchor="middle" font-family="Songti SC, Noto Serif CJK SC, serif" font-size="34" font-weight="800" fill="#a84435">道</text>
+  <path d="M35 49c6-5 11-5 18-2" fill="none" stroke="#2f6f6b" stroke-width="3" stroke-linecap="round"/>
+</svg>

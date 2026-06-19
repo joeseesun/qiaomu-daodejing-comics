@@ -1,0 +1,256 @@
+{
+  "chapter": 12,
+  "title": "检欲",
+  "reviewedAt": "2026-06-18",
+  "method": "CText base text plus Wang Bi, Heshang Gong, and Legge comparison. Final plain text is lightly rewritten in our own words.",
+  "sources": [
+    {
+      "id": "ctext-base",
+      "label": "中国哲学书电子化计划《道德经》简体原文",
+      "url": "https://ctext.org/dao-de-jing/zhs#n11603",
+      "role": "base-text"
+    },
+    {
+      "id": "wikisource-wangbi",
+      "label": "维基文库《道德经（王弼本）》",
+      "url": "https://zh.wikisource.org/wiki/道德經_(王弼本)",
+      "role": "classical-commentary"
+    },
+    {
+      "id": "wikisource-heshanggong",
+      "label": "维基文库《老子河上公章句/上》",
+      "url": "https://zh.wikisource.org/wiki/老子河上公章句/上",
+      "role": "classical-commentary"
+    },
+    {
+      "id": "ctext-legge",
+      "label": "CText James Legge translation",
+      "url": "https://ctext.org/dao-de-jing/zhs#n42719",
+      "role": "translation-comparison"
+    }
+  ],
+  "entries": [
+    {
+      "id": "c12-s01",
+      "sentence": "五色令人目盲；",
+      "evidence": [
+        {
+          "source": "ctext-base",
+          "note": "底本文字作“五色令人目盲”，第12章开头先列视觉刺激。"
+        },
+        {
+          "source": "wikisource-heshanggong",
+          "note": "河上公把“目盲”解释为贪恋外色会伤精失明，重点是感官被外物夺走。"
+        },
+        {
+          "source": "wikisource-wangbi",
+          "note": "王弼总括耳目口心若不顺自然，反而会伤自然，所以称盲、聋、爽、狂。"
+        },
+        {
+          "source": "ctext-legge",
+          "note": "Legge 译文也把五色理解为夺去眼睛的观看能力。"
+        }
+      ],
+      "decision": "这里不是反对颜色本身，而是说过度的视觉刺激会让人失去真正的辨认能力。",
+      "plain": "颜色太繁太艳，会把眼睛拖进刺激里，反而看不清真正重要的东西。",
+      "imageSemantics": {
+        "mustShow": [
+          "bright dye cloths or painted screens crowding the foreground",
+          "the seeker shielding his eyes or losing sight of a clear simple object",
+          "a calm unpainted lotus, bowl, or path partly hidden behind the colors"
+        ],
+        "mustNotShow": [
+          "ordinary lakeside conversation",
+          "food as the main subject",
+          "blank decorative landscape without eye confusion"
+        ],
+        "visualTest": "不看文字也能看出：颜色过载遮住了真正该看的东西。"
+      }
+    },
+    {
+      "id": "c12-s02",
+      "sentence": "五音令人耳聋；",
+      "evidence": [
+        {
+          "source": "ctext-base",
+          "note": "底本文字承接五色，转到声音刺激。"
+        },
+        {
+          "source": "wikisource-heshanggong",
+          "note": "河上公说好听五音会让和气离心，听不到无声之声。"
+        },
+        {
+          "source": "wikisource-wangbi",
+          "note": "王弼把耳、目、口、心并列为本性被外物伤害。"
+        },
+        {
+          "source": "ctext-legge",
+          "note": "Legge 译文把五音理解为使耳朵近乎失聪。"
+        }
+      ],
+      "decision": "重点不是音乐坏，而是嘈杂声色让人听不见安静处真正的信号。",
+      "plain": "声音太满太杂，会占住耳朵，让人听不见安静里真正该听见的声音。",
+      "imageSemantics": {
+        "mustShow": [
+          "many instruments sounding at once in a cramped space",
+          "the seeker covering his ears while a small quiet bell or bird is ignored",
+          "visible sound waves or vibrating lanterns showing overload"
+        ],
+        "mustNotShow": [
+          "quiet family meal as the main action",
+          "generic village doorway",
+          "only one calm musician"
+        ],
+        "visualTest": "画面应明显表现声音过载，旁边有一个被忽略的安静信号。"
+      }
+    },
+    {
+      "id": "c12-s03",
+      "sentence": "五味令人口爽；",
+      "evidence": [
+        {
+          "source": "ctext-base",
+          "note": "底本文字转到味觉，作“口爽”。"
+        },
+        {
+          "source": "wikisource-heshanggong",
+          "note": "河上公释“爽”为亡，嗜五味则口亡、失于道。"
+        },
+        {
+          "source": "wikisource-wangbi",
+          "note": "王弼说“爽”为差失，失口之用。"
+        },
+        {
+          "source": "ctext-legge",
+          "note": "Legge 译文把五味理解为夺去口舌正常品味能力。"
+        }
+      ],
+      "decision": "这里的“爽”不是爽快，而是差失、失常；味道过重会让口味失去准头。",
+      "plain": "味道越堆越重，舌头反而失去准头，连清淡本味也尝不出来。",
+      "imageSemantics": {
+        "mustShow": [
+          "overloaded banquet dishes with strong sauces piled in front",
+          "a plain bowl of rice or clear soup pushed aside",
+          "the seeker tasting too much and looking confused"
+        ],
+        "mustNotShow": [
+          "treasure as the main subject",
+          "quiet empty table",
+          "only a pleasant picnic"
+        ],
+        "visualTest": "应能看出味觉被浓烈食物扰乱，而清淡本味被忽略。"
+      }
+    },
+    {
+      "id": "c12-s04",
+      "sentence": "驰骋田猎，令人心发狂；",
+      "evidence": [
+        {
+          "source": "ctext-base",
+          "note": "CText 简体底本作“驰骋田猎”，王弼本作“畋猎”，意思同指纵马打猎。"
+        },
+        {
+          "source": "wikisource-heshanggong",
+          "note": "河上公说人精神好安静，驰骋会使精神散亡，故发狂。"
+        },
+        {
+          "source": "wikisource-wangbi",
+          "note": "王弼把“心发狂”纳入心被外物伤自然的结果。"
+        },
+        {
+          "source": "ctext-legge",
+          "note": "Legge 译文把车马奔驰与野猎理解为使心发狂。"
+        }
+      ],
+      "decision": "这一句说追逐、竞速、狩猎式刺激会把心从安静状态拖到狂躁状态。",
+      "plain": "一味追逐奔驰和猎取刺激，会把心搅得越来越躁，最后收不回来。",
+      "imageSemantics": {
+        "mustShow": [
+          "galloping horses or chariots raising dust",
+          "hunters chasing while the seeker is swept into the rush",
+          "a frightened deer or broken quiet field showing the cost"
+        ],
+        "mustNotShow": [
+          "peaceful countryside walk",
+          "static indoor conversation",
+          "market trading scene"
+        ],
+        "visualTest": "画面应有速度、追逐和精神失控感，而不是普通户外活动。"
+      }
+    },
+    {
+      "id": "c12-s05",
+      "sentence": "难得之货，令人行妨。",
+      "evidence": [
+        {
+          "source": "ctext-base",
+          "note": "底本文字指出稀有货物会妨碍人的行为。"
+        },
+        {
+          "source": "wikisource-heshanggong",
+          "note": "河上公把难得之货解释为金银珠玉，贪欲不知满足则行为受伤受辱。"
+        },
+        {
+          "source": "wikisource-wangbi",
+          "note": "王弼说难得之货会堵塞人的正路。"
+        },
+        {
+          "source": "ctext-legge",
+          "note": "Legge 译文理解为珍奇外物会把人的行为引向恶变。"
+        }
+      ],
+      "decision": "这句不是“珍宝很坏”，而是说稀缺物一旦成为执念，会让人偏离正路。",
+      "plain": "稀罕贵重的东西最容易勾住贪心，让人为了它偏离本来该走的路。",
+      "imageSemantics": {
+        "mustShow": [
+          "a jewel chest or jade box blocking a road or doorway",
+          "people turning away from a clear path toward the treasure",
+          "the seeker hesitating between the road and the glittering object"
+        ],
+        "mustNotShow": [
+          "ordinary household gift giving",
+          "rainy tea room as the main subject",
+          "treasure shown as purely beautiful reward"
+        ],
+        "visualTest": "看图应能明白：珍宝挡住或扭转了人的正路。"
+      }
+    },
+    {
+      "id": "c12-s06",
+      "sentence": "是以圣人为腹不为目，故去彼取此。",
+      "evidence": [
+        {
+          "source": "ctext-base",
+          "note": "底本文字以“为腹不为目”收束全章。"
+        },
+        {
+          "source": "wikisource-heshanggong",
+          "note": "河上公把“为腹”解释为守五性、去六情、节志气、养神明。"
+        },
+        {
+          "source": "wikisource-wangbi",
+          "note": "王弼说“为腹者以物养己，为目者以物役己”。"
+        },
+        {
+          "source": "ctext-legge",
+          "note": "Legge 译文把结论理解为满足腹中根本需要，而不是眼目无尽欲望。"
+        }
+      ],
+      "decision": "结论是回到滋养生命的基本需要，舍掉只役使人的外在刺激。",
+      "plain": "所以高明的人先照顾能养活身心的根本，不让眼前刺激牵着自己跑；舍掉那边，选择这边。",
+      "imageSemantics": {
+        "mustShow": [
+          "a simple nourishing meal held close in warm light",
+          "color, music, rich food, hunt, and treasure fading behind a curtain or outside the doorway",
+          "the seeker calmly choosing the simple meal beside the elder"
+        ],
+        "mustNotShow": [
+          "only another treasure scene",
+          "unrelated landscape",
+          "people still chasing entertainment"
+        ],
+        "visualTest": "画面应清楚收束前五格：离开外物刺激，回到滋养身心的根本。"
+      }
+    }
+  ]
+}

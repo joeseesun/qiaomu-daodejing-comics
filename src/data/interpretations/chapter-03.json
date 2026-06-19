@@ -1,0 +1,153 @@
+{
+  "chapter": 3,
+  "title": "安民",
+  "reviewedAt": "2026-06-18",
+  "method": "CText base text plus Wang Bi, Heshang Gong, and Legge comparison. Final plain text is conservative and reader-facing.",
+  "sources": [
+    {
+      "id": "ctext-base",
+      "label": "中国哲学书电子化计划《道德经》简体原文",
+      "url": "https://ctext.org/dao-de-jing/zhs#n11594",
+      "role": "base-text"
+    },
+    {
+      "id": "wikisource-wangbi",
+      "label": "维基文库《道德经（王弼本）》",
+      "url": "https://zh.wikisource.org/wiki/道德經_(王弼本)",
+      "role": "classical-commentary"
+    },
+    {
+      "id": "wikisource-heshanggong",
+      "label": "维基文库《老子河上公章句/上》",
+      "url": "https://zh.wikisource.org/wiki/老子河上公章句/上",
+      "role": "classical-commentary"
+    },
+    {
+      "id": "ctext-legge",
+      "label": "CText James Legge translation",
+      "url": "https://ctext.org/dao-de-jing/zhs#n42709",
+      "role": "translation-comparison"
+    }
+  ],
+  "entries": [
+    {
+      "id": "c03-s01",
+      "sentence": "不尚贤，使民不争；",
+      "evidence": [
+        { "source": "ctext-base", "note": "底本文字以不尚贤开篇，目标是使民不争。" },
+        { "source": "wikisource-wangbi", "note": "王弼认为尚贤显名、荣过其任，会引起比较争竞。" },
+        { "source": "wikisource-heshanggong", "note": "河上公把贤解释为世俗之贤，不贵以禄官，使民不争功名。" },
+        { "source": "ctext-legge", "note": "Legge 译文也强调不抬举贤能名位，以使人民不争。" }
+      ],
+      "decision": "这句不是反智或不用人才，而是不把贤能包装成人人争夺的名位。",
+      "plain": "不把“贤能”炒成人人争抢的名位，人们就少些攀比和争斗。",
+      "imageSemantics": {
+        "mustShow": ["empty honor platform left unused", "people pass through town gate without ranking ceremony", "elder listening from the edge"],
+        "mustNotShow": ["crowning a hero", "written merit board", "crowd fighting for a medal"],
+        "visualTest": "画面应表现没有被高高捧起的名位，所以人群不争。"
+      }
+    },
+    {
+      "id": "c03-s02",
+      "sentence": "不贵难得之货，使民不为盗；",
+      "evidence": [
+        { "source": "ctext-base", "note": "底本文字把不贵难得之货和不为盗相连。" },
+        { "source": "wikisource-wangbi", "note": "王弼认为过度抬高珍贵货物，会让贪者趋向偷盗。" },
+        { "source": "wikisource-heshanggong", "note": "河上公说人君不御好珍宝，上化清静，下无贪人。" },
+        { "source": "ctext-legge", "note": "Legge 译文也把不看重难得之货与减少盗心联系起来。" }
+      ],
+      "decision": "不是说物品不能珍贵，而是别把稀缺物制造成全社会追逐的诱饵。",
+      "plain": "不把稀有财物捧得过高，人们就少些偷夺和冒险的念头。",
+      "imageSemantics": {
+        "mustShow": ["closed jewel chest ignored beside an open road", "market stays calm without treasure display", "people move freely instead of crowding"],
+        "mustNotShow": ["glorified treasure stall", "thieves as exciting heroes", "gift ceremony"],
+        "visualTest": "画面应表现珍宝不被抬高展示，所以贪夺没有被点燃。"
+      }
+    },
+    {
+      "id": "c03-s03",
+      "sentence": "不见可欲，使心不乱。",
+      "evidence": [
+        { "source": "ctext-base", "note": "底本文字说不显示可欲之物，使心不乱。" },
+        { "source": "wikisource-wangbi", "note": "王弼把可欲不见和心无所乱相连。" },
+        { "source": "wikisource-heshanggong", "note": "河上公举放郑声、远美人为例，说明远离刺激欲望的诱因。" },
+        { "source": "ctext-legge", "note": "Legge 译文也强调不展示刺激欲望之物，使心不乱。" }
+      ],
+      "decision": "重点是减少人为制造的欲望刺激，让心不被不断撩拨。",
+      "plain": "不故意把诱人的东西摆到眼前，人的心就不容易被搅乱。",
+      "imageSemantics": {
+        "mustShow": ["curtain closing over tempting display", "basket holding only enough grain", "open window pulling attention back to ordinary life"],
+        "mustNotShow": ["sensual spectacle as the main attraction", "treasure glowing in center", "chaotic advertisement scene"],
+        "visualTest": "画面应表现诱惑被收起，心回到平稳。"
+      }
+    },
+    {
+      "id": "c03-s04",
+      "sentence": "是以圣人之治，虚其心，实其腹，弱其志，强其骨。",
+      "evidence": [
+        { "source": "ctext-base", "note": "底本文字以四个动作概括圣人之治：虚心、实腹、弱志、强骨。" },
+        { "source": "wikisource-wangbi", "note": "王弼说心怀智而腹怀食，心虚则志弱，骨无知以干。" },
+        { "source": "wikisource-heshanggong", "note": "河上公解释为除嗜欲、去乱烦、守道抱一、和柔谦让、养护精气。" },
+        { "source": "ctext-legge", "note": "Legge 译文也把这句理解为减少心智欲念、充实身体根基。" }
+      ],
+      "decision": "这一句不是愚民口号，而是少机巧躁动、先安顿基本生活和身心根基。",
+      "plain": "所以好的治理，是让人少些机巧躁动，先把基本生活和身体根基安顿住。",
+      "imageSemantics": {
+        "mustShow": ["plain meal and steady bodies in a quiet courtyard", "villagers set down argument tools", "children and elders fed and grounded"],
+        "mustNotShow": ["empty minds shown as stupidity", "military training", "luxury feast"],
+        "visualTest": "画面应表现安顿身心根基，而不是把人变笨。"
+      }
+    },
+    {
+      "id": "c03-s05",
+      "sentence": "常使民无知无欲。",
+      "evidence": [
+        { "source": "ctext-base", "note": "底本文字说常使民无知无欲，承接前句的治理目标。" },
+        { "source": "wikisource-wangbi", "note": "王弼注为守其真，强调保守真朴。" },
+        { "source": "wikisource-heshanggong", "note": "河上公解释为返朴守淳，重点是回到朴素淳厚的状态。" },
+        { "source": "ctext-legge", "note": "Legge 译文也把它理解为减少狡智和欲望。" }
+      ],
+      "decision": "这里的无知不是没有知识，而是少些机诈分别；无欲也不是无生活需要，而是不被贪欲牵动。",
+      "plain": "让人少些机诈算计、少被贪欲牵着走，回到朴素安稳的状态。",
+      "imageSemantics": {
+        "mustShow": ["freshly cleared village path", "neighbors draw water in turn", "people share simple routines without scheming"],
+        "mustNotShow": ["ignorant blank faces", "school being closed", "oppressive ruler"],
+        "visualTest": "画面应表现返朴守淳，而不是反知识。"
+      }
+    },
+    {
+      "id": "c03-s06",
+      "sentence": "使夫知者不敢为也。",
+      "evidence": [
+        { "source": "ctext-base", "note": "底本文字说使知者不敢为，承接无知无欲。" },
+        { "source": "wikisource-wangbi", "note": "王弼把知者理解为知为者，即擅用机巧作为的人。" },
+        { "source": "wikisource-heshanggong", "note": "河上公说思虑深，不轻言，强调不轻举妄为。" },
+        { "source": "ctext-legge", "note": "Legge 译文也指向让狡智者不敢妄作。" }
+      ],
+      "decision": "这里针对的是喜欢用机巧操弄的人，让他们不敢把聪明用成妄作。",
+      "plain": "即使有会玩机巧的人，也不敢拿聪明去妄作妄为。",
+      "imageSemantics": {
+        "mustShow": ["clever strategist closing an unused scheme box", "elder watches without threat", "open simple path remains easier than manipulation"],
+        "mustNotShow": ["book learning punished", "violence against smart people", "burning scrolls"],
+        "visualTest": "画面应表现机巧被放下，而不是知识被消灭。"
+      }
+    },
+    {
+      "id": "c03-s07",
+      "sentence": "为无为，则无不治。",
+      "evidence": [
+        { "source": "ctext-base", "note": "底本文字以为无为则无不治收束本章。" },
+        { "source": "wikisource-wangbi", "note": "王弼把本章治理逻辑归于不强作、不以名利诱乱人心。" },
+        { "source": "wikisource-heshanggong", "note": "河上公说为无为是不造作、动因循；则无不治是德化厚、百姓安。" },
+        { "source": "ctext-legge", "note": "Legge 译文也强调以无为行事，则一切趋于安治。" }
+      ],
+      "decision": "无为是少造作、顺着事物本性治理；不是撒手不管，而是不制造额外扰动。",
+      "plain": "用少造作、顺其性的方式治理，许多事反而能自然安定下来。",
+      "imageSemantics": {
+        "mustShow": ["open town gate with people moving freely", "water or road flows without command", "elder remains quiet while village settles"],
+        "mustNotShow": ["ruler issuing many orders", "empty abandoned village", "magic instant solution"],
+        "visualTest": "画面应表现少干预后秩序自然形成。"
+      }
+    }
+  ]
+}

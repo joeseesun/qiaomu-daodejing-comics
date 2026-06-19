@@ -1,0 +1,8 @@
+node_modules/
+dist/
+local-backups/
+.vercel/
+.wrangler/
+.DS_Store
+*.log
+*.jsonl
