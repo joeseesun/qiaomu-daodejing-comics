@@ -1,0 +1,34 @@
+{
+  "name": "qiaomu-daodejing-comics",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "sources:collect": "node scripts/collect-source-evidence.mjs",
+    "plain:rewrite": "node scripts/rewrite-plain-with-llm.mjs",
+    "plain:validate": "node scripts/validate-plain-reviews.mjs",
+    "reader:build": "node scripts/build-reader-json.mjs",
+    "reader:validate": "node scripts/validate-reader-json.mjs",
+    "data:build": "node scripts/build-data.mjs",
+    "data:validate": "node scripts/validate-data.mjs",
+    "interpretations:validate": "node scripts/validate-interpretations.mjs",
+    "prompts:extend": "node scripts/extend-comic-prompts.mjs",
+    "prompts:validate": "node scripts/validate-comic-prompts.mjs",
+    "prompts:audit-reviewed": "node scripts/audit-reviewed-prompts.mjs",
+    "comics:generate": "node scripts/generate-comics.mjs",
+    "comics:dreamina": "node scripts/generate-dreamina-comics.mjs",
+    "comics:compress": "node scripts/compress-comics.mjs",
+    "check": "npm run plain:validate && npm run data:validate && npm run interpretations:validate && npm run prompts:audit-reviewed && npm run build"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.1.1",
+    "vite": "^7.2.7",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "lucide-react": "^0.561.0"
+  },
+  "devDependencies": {}
+}

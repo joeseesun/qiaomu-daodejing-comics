@@ -1,0 +1,153 @@
+{
+  "chapter": 2,
+  "title": "相生",
+  "reviewedAt": "2026-06-18",
+  "method": "CText base text plus Wang Bi, Heshang Gong, and Legge comparison. Final plain text is conservative and reader-facing.",
+  "sources": [
+    {
+      "id": "ctext-base",
+      "label": "中国哲学书电子化计划《道德经》简体原文",
+      "url": "https://ctext.org/dao-de-jing/zhs#n11593",
+      "role": "base-text"
+    },
+    {
+      "id": "wikisource-wangbi",
+      "label": "维基文库《道德经（王弼本）》",
+      "url": "https://zh.wikisource.org/wiki/道德經_(王弼本)",
+      "role": "classical-commentary"
+    },
+    {
+      "id": "wikisource-heshanggong",
+      "label": "维基文库《老子河上公章句/上》",
+      "url": "https://zh.wikisource.org/wiki/老子河上公章句/上",
+      "role": "classical-commentary"
+    },
+    {
+      "id": "ctext-legge",
+      "label": "CText James Legge translation",
+      "url": "https://ctext.org/dao-de-jing/zhs#n42708",
+      "role": "translation-comparison"
+    }
+  ],
+  "entries": [
+    {
+      "id": "c02-s01",
+      "sentence": "天下皆知美之为美，斯恶已。",
+      "evidence": [
+        { "source": "ctext-base", "note": "底本文字从“美/恶”的分别开章。" },
+        { "source": "wikisource-wangbi", "note": "王弼把美恶类比喜怒，认为不可偏举。" },
+        { "source": "wikisource-heshanggong", "note": "河上公把自扬其美和危亡联系起来，提醒显美会引出反面。" },
+        { "source": "ctext-legge", "note": "Legge 译文也把美被普遍认定后，丑随之出现作为核心意思。" }
+      ],
+      "decision": "重点不是否定美，而是说一旦把某种样子固定为美，反面的丑也同时被制造出来。",
+      "plain": "天下人一把某种样子定成“美”，相反的“丑”也就跟着出现了。",
+      "imageSemantics": {
+        "mustShow": ["refined vase of blossoms", "wild grass grows freely from a cracked pot", "elder guides the seeker to see both without ranking"],
+        "mustNotShow": ["beauty contest with written labels", "one object shown as absolute good", "mocking ugly people"],
+        "visualTest": "画面应看出美丑来自比较，而不是某个东西天然高低。"
+      }
+    },
+    {
+      "id": "c02-s02",
+      "sentence": "皆知善之为善，斯不善已。",
+      "evidence": [
+        { "source": "ctext-base", "note": "底本文字以善/不善承接美/恶。" },
+        { "source": "wikisource-wangbi", "note": "王弼把善不善类比是非，认为同根同门，不可偏举。" },
+        { "source": "wikisource-heshanggong", "note": "河上公说善若变成功名，便会成为人所争。" },
+        { "source": "ctext-legge", "note": "Legge 译文也强调善被认作善时，不善同时被标出来。" }
+      ],
+      "decision": "善的名目一旦被固定和炫示，就会连带制造不善、比较和争夺。",
+      "plain": "大家一把某种行为标成“善”，另一面的“不善”也就被分出来了。",
+      "imageSemantics": {
+        "mustShow": ["children sort pale and dark pebbles into two bowls", "one mixed gray stone in hand", "simple category creates its opposite"],
+        "mustNotShow": ["written moral labels", "punishing a child", "religious judgment scene"],
+        "visualTest": "画面应看出分类本身制造了对立。"
+      }
+    },
+    {
+      "id": "c02-s03",
+      "sentence": "故有无相生，难易相成，长短相较，高下相倾，音声相和，前后相随。",
+      "evidence": [
+        { "source": "ctext-base", "note": "底本文字连续列举有无、难易、长短、高下、音声、前后。" },
+        { "source": "wikisource-wangbi", "note": "王弼认为这些对偶关系都显示自然不可偏举之数。" },
+        { "source": "wikisource-heshanggong", "note": "河上公逐项解释这些关系互相成立、互相跟随。" },
+        { "source": "ctext-legge", "note": "Legge 译文把这些对偶理解为互相生成、互相完成、互相对照。" }
+      ],
+      "decision": "这一句是全章的逻辑核心：很多概念不是孤立存在，而是在关系中互相显出来。",
+      "plain": "有和无、难和易、长和短、高和下、音和声、前和后，都是互相映照才成立的。",
+      "imageSemantics": {
+        "mustShow": ["empty basket beside a full one", "short bamboo beside tall bamboo", "high steps meet low river stones"],
+        "mustNotShow": ["isolated single object", "chaotic market with no paired relationships", "written diagram"],
+        "visualTest": "画面应一眼看见多组对照关系，而不是散乱物件。"
+      }
+    },
+    {
+      "id": "c02-s04",
+      "sentence": "是以圣人处无为之事，行不言之教；",
+      "evidence": [
+        { "source": "ctext-base", "note": "底本文字从对立相生转向圣人的处理方式。" },
+        { "source": "wikisource-wangbi", "note": "王弼说自然已足，强为反而败坏。" },
+        { "source": "wikisource-heshanggong", "note": "河上公说处无为之事是以道治，行不言之教是以身导之。" },
+        { "source": "ctext-legge", "note": "Legge 译文把圣人之治理解为无为而教不用言。" }
+      ],
+      "decision": "无为不是不做事，而是不硬把自己的意志压上去；不言不是沉默，而是让行动本身成为教化。",
+      "plain": "所以高明的人做事少用强推，教人少靠口号，而是让事情自己显出方向。",
+      "imageSemantics": {
+        "mustShow": ["elder silently nudges a stuck wooden waterwheel", "water begins to flow again", "villagers understand by watching"],
+        "mustNotShow": ["elder giving a speech", "hero pose", "written instruction board"],
+        "visualTest": "画面应看出教化来自行动和水流，不来自喊话。"
+      }
+    },
+    {
+      "id": "c02-s05",
+      "sentence": "万物作焉而不辞，生而不有。",
+      "evidence": [
+        { "source": "ctext-base", "note": "底本文字说明万物兴起、生长，而圣人不拒绝也不占有。" },
+        { "source": "wikisource-wangbi", "note": "王弼相关注强调顺物自然，功由物成。" },
+        { "source": "wikisource-heshanggong", "note": "河上公说万物各自动，元气生万物而不据为己有。" },
+        { "source": "ctext-legge", "note": "Legge 译文也强调万物生起而圣人不据有。" }
+      ],
+      "decision": "这里说成全万物，但不把万物的生长归为自己的所有物。",
+      "plain": "万物自然兴起、生长，他不拦着，也不把这份生长据为己有。",
+      "imageSemantics": {
+        "mustShow": ["water spreads into furrows", "seedlings lift", "elder steps back with open hands"],
+        "mustNotShow": ["elder collecting reward", "field owned by one person", "dead dry field"],
+        "visualTest": "画面应表现生长发生了，但帮助者不占有。"
+      }
+    },
+    {
+      "id": "c02-s06",
+      "sentence": "为而不恃，功成而弗居。",
+      "evidence": [
+        { "source": "ctext-base", "note": "底本文字说明做了事而不仗恃，功成不居。" },
+        { "source": "wikisource-wangbi", "note": "王弼说因物而用，功自彼成，故不居。" },
+        { "source": "wikisource-heshanggong", "note": "河上公解释为功成事就，退避不居其位。" },
+        { "source": "ctext-legge", "note": "Legge 译文也强调成事而不占功。" }
+      ],
+      "decision": "重点是做成事情之后不把功劳抓在自己身上。",
+      "plain": "事情做成了，也不把功劳抓在自己手里，更不靠它抬高自己。",
+      "imageSemantics": {
+        "mustShow": ["repaired irrigation channel carries water smoothly", "young seeker sets tools down", "elder quietly steps away"],
+        "mustNotShow": ["celebration for the elder", "name plaque", "person standing over others"],
+        "visualTest": "画面应看出事已成，而人正在退开。"
+      }
+    },
+    {
+      "id": "c02-s07",
+      "sentence": "夫唯弗居，是以不去。",
+      "evidence": [
+        { "source": "ctext-base", "note": "底本文字以不居功所以不去收束全章。" },
+        { "source": "wikisource-wangbi", "note": "王弼说若使功在己，则功不可久。" },
+        { "source": "wikisource-heshanggong", "note": "河上公说功成不居其位，福德常在。" },
+        { "source": "ctext-legge", "note": "Legge 译文也把不居功和功效长存联系起来。" }
+      ],
+      "decision": "不占功，功效反而留得住；越把功劳绑在自己身上，越容易随自己消失。",
+      "plain": "正因为不把功劳占为己有，这份作用反而能留下来。",
+      "imageSemantics": {
+        "mustShow": ["water continues moving after they leave", "villagers tend seedlings", "elder and seeker small figures walking away"],
+        "mustNotShow": ["elder still centered as hero", "dry channel", "written memorial tablet"],
+        "visualTest": "画面应看出人离开了，但有益的流动还在。"
+      }
+    }
+  ]
+}

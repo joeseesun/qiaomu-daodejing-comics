@@ -1,0 +1,330 @@
+{
+  "chapter": 1,
+  "title": "体道",
+  "reviewedAt": "2026-06-18",
+  "method": "CText base text plus Wang Bi, Heshang Gong, and Legge comparison. Final plain text is conservative and uses our own wording.",
+  "sources": [
+    {
+      "id": "ctext-base",
+      "label": "中国哲学书电子化计划《道德经》简体原文",
+      "url": "https://ctext.org/dao-de-jing/zhs#n11592",
+      "role": "base-text"
+    },
+    {
+      "id": "wikisource-wangbi",
+      "label": "维基文库《道德经（王弼本）》",
+      "url": "https://zh.wikisource.org/wiki/道德經_(王弼本)",
+      "role": "classical-commentary"
+    },
+    {
+      "id": "wikisource-heshanggong",
+      "label": "维基文库《老子河上公章句/上》",
+      "url": "https://zh.wikisource.org/wiki/老子河上公章句/上",
+      "role": "classical-commentary"
+    },
+    {
+      "id": "ctext-legge",
+      "label": "CText James Legge translation",
+      "url": "https://ctext.org/dao-de-jing/zhs#n42707",
+      "role": "translation-comparison"
+    }
+  ],
+  "entries": [
+    {
+      "id": "c01-s01",
+      "sentence": "道可道，非常道。",
+      "evidence": [
+        {
+          "source": "ctext-base",
+          "note": "底本文字以“道可道，非常道”开篇，指出可言说之道和恒常之道的差别。"
+        },
+        {
+          "source": "wikisource-wangbi",
+          "note": "王弼说可道之道是指事造形，已经不是常道。"
+        },
+        {
+          "source": "wikisource-heshanggong",
+          "note": "河上公把常道理解为自然生长、无为养神安民之道，不可称道。"
+        },
+        {
+          "source": "ctext-legge",
+          "note": "Legge 译文也把可被走出或说出的道，与恒常不变之道区分开。"
+        }
+      ],
+      "decision": "重点不是“不能说话”，而是任何说出口的方法、路径、定义，都只是对道的暂时把握。",
+      "plain": "能被说成一套固定方法的“道”，已经不是那个恒常流动的道本身。",
+      "imageSemantics": {
+        "mustShow": [
+          "measuring cord failing to hold a living road",
+          "stone path bends, forks, and disappears into mist",
+          "young seeker trying to mark one straight permanent road"
+        ],
+        "mustNotShow": [
+          "a road sign with readable writing",
+          "a single rigid highway with no change",
+          "a generic mountain portrait without measuring action"
+        ],
+        "visualTest": "看图应能明白：人想把道路固定下来，但真正的路仍在变化。"
+      }
+    },
+    {
+      "id": "c01-s02",
+      "sentence": "名可名，非常名。",
+      "evidence": [
+        {
+          "source": "ctext-base",
+          "note": "底本文字把“名可名”与“道可道”并列，继续讨论命名的限制。"
+        },
+        {
+          "source": "wikisource-wangbi",
+          "note": "王弼把可名之名同样归入指事造形，非其常。"
+        },
+        {
+          "source": "wikisource-heshanggong",
+          "note": "河上公说常名如内含光明而外不显露，强调固定名位不是常名。"
+        },
+        {
+          "source": "ctext-legge",
+          "note": "Legge 译文也把可被命名的名，与恒常之名区分开。"
+        }
+      ],
+      "decision": "名称有用，但它只是临时把手；一旦把名字当成本体，就会错过活的事物。",
+      "plain": "能被叫出来、框起来的“名”，只是临时的把手，不是事物恒常的本体。",
+      "imageSemantics": {
+        "mustShow": [
+          "blank mask and reflections showing one face differently",
+          "bronze mirror, water bowl, and polished stone each reflecting differently",
+          "elder lifting a blank mask while the seeker watches"
+        ],
+        "mustNotShow": [
+          "written labels or name tags",
+          "a static portrait with no reflections",
+          "paper signs as the main subject"
+        ],
+        "visualTest": "看图应能明白：同一个对象会被不同媒介呈现，名字不是对象本身。"
+      }
+    },
+    {
+      "id": "c01-s03",
+      "sentence": "无名天地之始；",
+      "evidence": [
+        {
+          "source": "ctext-base",
+          "note": "底本文字作“无名天地之始”，把未命名状态放在天地开端。"
+        },
+        {
+          "source": "wikisource-wangbi",
+          "note": "王弼说凡有皆始于无，未形无名时为万物之始。"
+        },
+        {
+          "source": "wikisource-heshanggong",
+          "note": "河上公说无名者谓道，道无形不可名，是天地本始。"
+        },
+        {
+          "source": "ctext-legge",
+          "note": "Legge 译文把无名理解为天地之始。"
+        }
+      ],
+      "decision": "这一句说在概念和形状出现之前，已有一个未可命名的生成源头。",
+      "plain": "还没有形状和名称之前，天地万物已经从那个不可命名的源头开始发生。",
+      "imageSemantics": {
+        "mustShow": [
+          "first ripple of light before forms separate",
+          "cloud, water, rock, and sky beginning to separate",
+          "tiny seeker and elder witnessing a vast primordial vision"
+        ],
+        "mustNotShow": [
+          "busy named objects filling the scene",
+          "market or village as the main setting",
+          "readable symbols explaining creation"
+        ],
+        "visualTest": "画面应表现未分未名的开端，而不是已经分类清楚的世界。"
+      }
+    },
+    {
+      "id": "c01-s04",
+      "sentence": "有名万物之母。",
+      "evidence": [
+        {
+          "source": "ctext-base",
+          "note": "底本文字承接无名，以“有名”说明万物成形生长的一面。"
+        },
+        {
+          "source": "wikisource-wangbi",
+          "note": "王弼说有形有名时，长之育之，为其母。"
+        },
+        {
+          "source": "wikisource-heshanggong",
+          "note": "河上公把有名解释为天地有形位阴阳柔刚，含气生养万物。"
+        },
+        {
+          "source": "ctext-legge",
+          "note": "Legge 译文把有名理解为万物之母。"
+        }
+      ],
+      "decision": "命名和成形不是坏事；它让万物显出差别、得到生长，但仍不是最终源头本身。",
+      "plain": "一旦有了形状和名称，万物就能被分辨、被生养，像从母体中长出来。",
+      "imageSemantics": {
+        "mustShow": [
+          "one spring valley where many distinct lives take form",
+          "new leaves, birds, fish, insects, and distant village roofs",
+          "one mothering source becoming many visible forms"
+        ],
+        "mustNotShow": [
+          "empty primordial darkness only",
+          "a single object with no living variety",
+          "name labels written over objects"
+        ],
+        "visualTest": "画面应表现万物显形、生长、变得可分辨。"
+      }
+    },
+    {
+      "id": "c01-s05",
+      "sentence": "故常无欲，以观其妙；",
+      "evidence": [
+        {
+          "source": "ctext-base",
+          "note": "底本文字以“故”转入观察方式：常无欲以观其妙。"
+        },
+        {
+          "source": "wikisource-wangbi",
+          "note": "王弼说妙是微之极，万物始于微、始于无，无欲空虚可观始物之妙。"
+        },
+        {
+          "source": "wikisource-heshanggong",
+          "note": "河上公说人常能无欲，可以观道之要。"
+        },
+        {
+          "source": "ctext-legge",
+          "note": "Legge 译文把无欲状态联系到观察道的奥妙。"
+        }
+      ],
+      "decision": "无欲不是否定一切需求，而是暂时放下占有和预设，才能看见事物初生时的细微变化。",
+      "plain": "少一点占有和预设，心空下来，才看得见事物刚要发生时那点细微的端倪。",
+      "imageSemantics": {
+        "mustShow": [
+          "empty hands near a dew-covered sprout",
+          "young seeker setting a travel pouch aside",
+          "tiny sprout breaking through soil before sunrise"
+        ],
+        "mustNotShow": [
+          "treasure bags as the central image",
+          "a grand spectacle instead of a subtle beginning",
+          "a person forcefully grabbing the sprout"
+        ],
+        "visualTest": "画面应让人看见：放下抓取后，细微开端才显出来。"
+      }
+    },
+    {
+      "id": "c01-s06",
+      "sentence": "常有欲，以观其徼。",
+      "evidence": [
+        {
+          "source": "ctext-base",
+          "note": "底本文字与上一句成对：常有欲以观其徼。"
+        },
+        {
+          "source": "wikisource-wangbi",
+          "note": "王弼释徼为归终，常有欲可以观终物之徼。"
+        },
+        {
+          "source": "wikisource-heshanggong",
+          "note": "河上公释徼为归，有欲之人可观世俗所归趣。"
+        },
+        {
+          "source": "ctext-legge",
+          "note": "Legge 译文把有欲状态联系到观察外在边界或显现。"
+        }
+      ],
+      "decision": "有欲并非简单错误；带着具体关切看，能看见事物成形后的边界、归向和结果。",
+      "plain": "带着具体关切去看，也能看清事物成形后的边界、归向和结果在哪里。",
+      "imageSemantics": {
+        "mustShow": [
+          "lantern revealing riverbank, bridge, and distant gate",
+          "young seeker studying where water meets field stones",
+          "boundary between river, road, and settlement"
+        ],
+        "mustNotShow": [
+          "pure meditation with no boundary",
+          "another sprout close-up",
+          "a treasure temptation scene"
+        ],
+        "visualTest": "画面应表现带着目的观察时，看清边界和归向。"
+      }
+    },
+    {
+      "id": "c01-s07",
+      "sentence": "此两者，同出而异名，同谓之玄。",
+      "evidence": [
+        {
+          "source": "ctext-base",
+          "note": "底本文字说两者同出而异名，同谓之玄。"
+        },
+        {
+          "source": "wikisource-wangbi",
+          "note": "王弼把两者解释为始与母，同出于玄，只是作用和名称不同。"
+        },
+        {
+          "source": "wikisource-heshanggong",
+          "note": "河上公把两者解释为有欲与无欲，同出人心而所名各异。"
+        },
+        {
+          "source": "ctext-legge",
+          "note": "Legge 译文也强调二者同源而异名，共属深玄。"
+        }
+      ],
+      "decision": "无名/有名、无欲/有欲不是两个绝对敌对的东西，而是从同一个深处展开的两种看法。",
+      "plain": "“无”和“有”不是两套互相打架的真理，它们同出一源，只是在不同位置上有不同名字。",
+      "imageSemantics": {
+        "mustShow": [
+          "one spring source clearly splitting into two streams",
+          "one bright clear stream and one dark reflective stream",
+          "elder pointing to the shared source stone"
+        ],
+        "mustNotShow": [
+          "two unrelated rivers from different places",
+          "a fight between two groups",
+          "a written yin-yang symbol as explanation"
+        ],
+        "visualTest": "画面应看出两股流不同，但来自同一个源头。"
+      }
+    },
+    {
+      "id": "c01-s08",
+      "sentence": "玄之又玄，众妙之门。",
+      "evidence": [
+        {
+          "source": "ctext-base",
+          "note": "底本文字以“玄之又玄，众妙之门”收束第一章。"
+        },
+        {
+          "source": "wikisource-wangbi",
+          "note": "王弼说若定乎一玄则失之远，众妙皆从而出。"
+        },
+        {
+          "source": "wikisource-heshanggong",
+          "note": "河上公把众妙之门解释为知道要之门户，强调通向道要的入口。"
+        },
+        {
+          "source": "ctext-legge",
+          "note": "Legge 译文把这一句理解为众妙之门。"
+        }
+      ],
+      "decision": "玄不是一个可以抓死的答案；越深入，越发现它只是通向万般变化的入口。",
+      "plain": "越往深处看，越不能把它定死；它更像一道门，许多细微变化都从这里打开。",
+      "imageSemantics": {
+        "mustShow": [
+          "nested moon gates opening to many wonders",
+          "rain on leaves, seed sprouting, bird taking flight, old tree, stars in water",
+          "mystery opens outward instead of ending"
+        ],
+        "mustNotShow": [
+          "one final trophy or answer",
+          "closed door with no opening",
+          "written mystical symbols"
+        ],
+        "visualTest": "画面应表现越深入越开放，不是得到一个终极标签。"
+      }
+    }
+  ]
+}
